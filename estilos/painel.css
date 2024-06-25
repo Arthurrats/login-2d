@@ -1,2 +1,115 @@
 @charset "UTF-8";
 
+/*
+PALETA DE CORES
+AZUL 1: #0B6BBF
+AZUL 2: #0B7ABF
+AZUL 3: #143340
+VERDE: #1A7317
+BEGE: #D9B282
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #143340;
+    background: url(../imagens/fundo-login.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#login{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    background-image: linear-gradient(to left,#063158, #084f7b, #143340);
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.315);
+
+    transform: translate(-50%, -50%);
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
+}  
+#login > #img{
+    background: url(../imagens/fundo-login.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+    display: block;
+}
+
+#login > #form{
+    display: inline-block;
+}
+
+#form > h1{
+    text-align: center;
+    padding: 5px;
+    color: #d7c1a7;
+}
+
+#form > p{
+    text-align: center;
+    color: #D9B282;
+}
+
+.campo{
+    background-color: #143340;
+    padding: 8px;
+    margin: 2px;
+    width: 99%;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.374);
+    border-radius: 10px;
+}
+
+.campo > input{
+    width: calc(100% - 40px);
+    transform: translateY(-13px);
+    background-color: #143340;
+    border:none;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: none;
+}
+
+.campo > span{
+    color: #D9B282;
+    width: 30px;
+    font-size: 2em;
+    transform: translate(-5px, -5px);
+}
+
+form > input[type=submit]{
+    background-color: #143340;
+    color: #D9B282;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+}
+
+
