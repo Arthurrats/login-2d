@@ -17,11 +17,15 @@ BEGE: #D9B282
 }
 
 html, body{
+    background-image: linear-gradient(to left,#063158, #084f7b, #143340);
+    
+
+    /*
     background-color: #143340;
     background: url(../imagens/fundo-login.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
-
+    */
     width: 100vw;
     height: 100vh;
 }
@@ -63,22 +67,22 @@ main{
 #form > h1{
     text-align: center;
     padding: 5px;
-    color: #d7c1a7;
+    color: #babee6b9;
 }
 
 #form > p{
     text-align: center;
-    color: #D9B282;
+    color: #babee6c8;
 }
 
 .campo{
     background-color: #143340;
     padding: 8px;
     margin: 2px;
-    width: 99%;
     height: 40px;
     border: 2px solid rgba(255, 255, 255, 0.374);
     border-radius: 10px;
+
 }
 
 .campo > input{
@@ -89,27 +93,59 @@ main{
     height: 30px;
     padding-top: 10px;
     border-radius: none;
+    
+}
+
+.campo > input[type=email]{
+    color: #ffffff;
+    text-align: center;
+    background-color:#143340;
+}
+
+.campo > input[type=password]{
+    color: #ffffff;
+    text-align: center;
+    background-color:#143340;
 }
 
 .campo > span{
-    color: #D9B282;
-    width: 30px;
+    color: #babee6ac;
+    width: 35px;
     font-size: 2em;
     transform: translate(-5px, -5px);
+    background-color: #234b64;
+    border-radius: 5px;
 }
 
 form > input[type=submit]{
     background-color: #143340;
-    color: #D9B282;
+    color: rgb(189, 188, 188);
     display: block;
     margin: auto;
     padding: 8px;
     margin-top: 8px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-a{
-    color: white;
+form > input[type=submit]:hover{
+    color: rgb(42, 100, 171);
+    background-color: #032438;
+    border: 2px solid #39c2e0ae;
+    transition: .3s;
 }
 
+form > .esqueci{
+    color: #39c8e5ae;
+    display: block;
+    margin: auto;
+    padding-top: 12px;
+    text-decoration: none;
+    font-size: 0.9em;
+    width: 140px;
+}
 
+form > .esqueci:hover{
+    text-decoration: underline;
+    color:  #a5dce9;
+}
