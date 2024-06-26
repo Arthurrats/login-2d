@@ -11,7 +11,7 @@
     #login > #img{
         float: right;
         height: 400px;
-        width: 60%;
+        width: 50%;
 
         background-position: center center;
         background-size: cover;
@@ -21,6 +21,12 @@
         float: left;
         width: 40%;
         text-align: center;
+        padding-left: 6%;
+        padding-top: 5%;
+    }
+
+    #form > p{
+        padding-bottom: 3%;
     }
 
 }
@@ -43,6 +49,9 @@
         padding-top: 10%;
         padding-left: 1%;
     }
-
+    
+    #form > p{
+        padding-bottom: 3%;
+    }
 
 }
