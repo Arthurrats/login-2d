@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+/*VERSÃO PARA TABLET*/
+@media screen and (min-width: 768px) and (max-width: 992px ) {
+    #login{
+        width: 80vw;
+        height: 300px;
+    }
+
+    #login > #img{
+        float: right;
+        height: 400px;
+        width: 60%;
+
+        background-position: center center;
+        background-size: cover;
+    }
+
+    #login > #form{
+        float: left;
+        width: 40%;
+        text-align: center;
+    }
+
+}
+
+
+/*VERSÃO PARA GRANDES TELAS*/
+@media screen and (min-width: 992px){
+    #login{
+        width: 60vw;
+        height: 400px;
+    }
+
+    #login >  #img{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > #form{
+        padding-top: 10%;
+        padding-left: 1%;
+    }
+
+
+}
